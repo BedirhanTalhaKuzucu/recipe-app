@@ -1,0 +1,38 @@
+.component-container{
+    height: max-content;
+    background-color: #00ADB5;
+    width: 100vw;
+}
+
+.navbar{
+    background-color:#E1F1DD;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-end-end-radius: 1rem;
+    border-end-start-radius: 1rem;
+    font-family: 'Girassol', cursive;
+    font-size: 2rem;
+}
+
+.btk{
+    font-style: italic;
+}
+
+.navbar-right{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+
+.navlink:hover{
+    color: #00ADB5;
+    font-weight: bolder;
+}

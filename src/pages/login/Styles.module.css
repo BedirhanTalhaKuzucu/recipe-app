@@ -1,0 +1,58 @@
+.login{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://picsum.photos/1600/900");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container{
+    position: absolute;
+    width: 30rem;
+    height: 33rem;
+    background-color: rgb(37, 126, 136, 0.8);
+    padding: 3rem 4rem;
+    border-radius: 120rem;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.btk{
+    font-style: italic;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.login_input{
+    width: 15rem;
+    margin: 1rem  auto;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(14, 45, 43, 0.8);
+    color: aliceblue;
+    font-family: 'Girassol', cursive;
+    font-size: 1.5rem;
+}
+
+.login_button{
+    margin: 1rem  auto;
+    padding: 0.5rem;
+    width: 17rem;
+    border: none;
+    font-family: 'Girassol', cursive;
+    font-size: 1.5rem;
+    background-color: rgb(14, 45, 43, 0.9);
+    color: white;
+}
